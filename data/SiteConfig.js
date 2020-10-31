@@ -17,7 +17,7 @@ const config = {
   postsPerPage: 4, // Amount of posts displayed per listing page.
   userName: "Dany Dodson", // Username to display in the author segment.
   userEmail: "danydodson@gmail.com", // Email used for RSS feed's author segment
-  userTwitter: "danydodson", // Optionally renders "Follow Me" in the UserInfo segment.
+  userTwitter: "dany_dodson", // Optionally renders "Follow Me" in the UserInfo segment.
   userLocation: "Midwest, USA", // User location to display in the author segment.
   userAvatar: "https://en.gravatar.com/userimage/62805797/de9073787b8f44890f332e259f2e1bbd.jpeg", // User avatar to display in the author segment.
   userDescription: "Yeah, I like animals better than people sometimes... Especially dogs. Dogs are the best. Every time you come home, they act like they haven't seen you in a year. And the good thing about dogs... is they got different dogs for different people.", // User description to display in the author segment.
@@ -31,7 +31,7 @@ const config = {
     },
     {
       label: "Twitter",
-      url: "https://twitter.com/danydodson",
+      url: "https://twitter.com/dany_dodson",
       iconClassName: "fa fa-twitter",
     },
     {
