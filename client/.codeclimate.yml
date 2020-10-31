@@ -5,7 +5,7 @@ plugins:
     enabled: true
     channel: "eslint-4"
     config:
-      config: ./client/eslintrc.json
+      config: ./eslintrc.json
 
 checks:
   method-complexity:
@@ -28,5 +28,5 @@ ratings:
     - "**.sss"
 
 exclude_paths:
-- ./client/static/**/*
-- ./client/src/templates/b16-tomorrow-dark.css
+- static/**/*
+- src/templates/b16-tomorrow-dark.css

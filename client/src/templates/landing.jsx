@@ -1,6 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import { graphql } from "gatsby";
+// import { graphql } from "gatsby";
 import Layout from "../layout";
 import PostListing from "../components/PostListing/PostListing";
 import SEO from "../components/SEO/SEO";
@@ -26,25 +26,25 @@ class Landing extends React.Component {
 export default Landing;
 
 /* eslint no-undef: "off" */
-export const pageQuery = graphql`
-  query LandingQuery {
-    allMarkdownRemark(sort: { fields: [fields___date], order: DESC }) {
-      edges {
-        node {
-          fields {
-            slug
-            date
-          }
-          excerpt
-          timeToRead
-          frontmatter {
-            title
-            tags
-            cover
-            date
-          }
-        }
-      }
-    }
-  }
-`;
+// export const pageQuery = graphql`
+//   query LandingQuery {
+//     allMarkdownRemark(sort: { fields: [fields___date], order: DESC }) {
+//       edges {
+//         node {
+//           fields {
+//             slug
+//             date
+//           }
+//           excerpt
+//           timeToRead
+//           frontmatter {
+//             title
+//             tags
+//             cover
+//             date
+//           }
+//         }
+//       }
+//     }
+//   }
+// `;
