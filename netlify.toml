@@ -1,6 +1,7 @@
 [build]
-  publish = "public"
-  command = "gatsby build"
+  base = "client"
+  publish = "client/public"
+  command = "cd client && gatsby build"
 [build.environment]
   NODE_VERSION = "12.19.0"
   YARN_VERSION = "1.22.5"
