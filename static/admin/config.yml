@@ -7,7 +7,7 @@ media_library:
   name: cloudinary
   config:
     cloud_name: seesee
-    api_key: 282549924735476
+    api_key: '282549924735476'
 
 media_folder: static/assets
 public_folder: assets
