@@ -34,6 +34,8 @@
 
 # Gatsby Advanced Starter
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/68c92e42-d42d-44e1-bf0b-84a9bd582434/deploy-status)](https://app.netlify.com/sites/danycodes/deploys)
+
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/51fb57c562ea4da088108ab14ea5d12e)](https://www.codacy.com/gh/danydodson/dany.codes/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=danydodson/dany.codes&amp;utm_campaign=Badge_Grade)  
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/801557633df15a94ada8/maintainability)](https://codeclimate.com/github/danydodson/dany.codes/maintainability)  [![Test Coverage](https://api.codeclimate.com/v1/badges/801557633df15a94ada8/test_coverage)](https://codeclimate.com/github/danydodson/dany.codes/test_coverage)  
