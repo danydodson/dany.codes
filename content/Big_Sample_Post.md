@@ -12,13 +12,13 @@ tags:
 # NOTE: This "post" is based on [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) and is meant to test styling of Markdown generated documents.
 
 
-This is intended as a quick reference and showcase. For more complete info, see [John Gruber's original spec](http://daringfireball.net/projects/markdown/) and the [Github-flavored Markdown info page](http://github.github.com/github-flavored-markdown/).
+This is intended as a quick reference and showcase. For more complete info, see [John Gruber's original spec](https://daringfireball.net/projects/markdown/) and the [Github-flavored Markdown info page](https://github.github.com/github-flavored-markdown/).
 
 This cheatsheet is specifically *Markdown Here's* version of Github-flavored Markdown. This differs slightly in styling and syntax from what Github uses, so what you see below might vary a little from what you get in a *Markdown Here* email, but it should be pretty close.
 
-You can play around with Markdown on our [live demo page](http://www.markdown-here.com/livedemo.html).
+You can play around with Markdown on our [live demo page](https://www.markdown-here.com/livedemo.html).
 
-(If you're not a Markdown Here user, check out the [Markdown Cheatsheet](./Markdown-Cheatsheet) that is not specific to MDH. But, really, you should also use Markdown Here, because it's awesome. http://markdown-here.com)
+(If you're not a Markdown Here user, check out the [Markdown Cheatsheet](./Markdown-Cheatsheet) that is not specific to MDH. But, really, you should also use Markdown Here, because it's awesome. https://markdown-here.com)
 
 ##### Table of Contents
 
@@ -171,8 +171,8 @@ example.com (but not on Github, for example).
 Some text to show that the reference links can follow later.
 
 [arbitrary case-insensitive reference text]: https://www.mozilla.org
-[1]: http://slashdot.org
-[link text itself]: http://www.reddit.com
+[1]: https://slashdot.org
+[link text itself]: https://www.reddit.com
 
 <a name="images"/>
 
@@ -247,7 +247,7 @@ No language indicated, so no syntax highlighting in Markdown Here (varies on Git
 But let's throw in a <b>tag</b>.
 ```
 
-Again, to see what languages are available for highlighting, and how to write those language names, see the [highlight.js demo page](http://softwaremaniacs.org/media/soft/highlight/test.html).
+Again, to see what languages are available for highlighting, and how to write those language names, see the [highlight.js demo page](https://softwaremaniacs.org/media/soft/highlight/test.html).
 
 <a name="tables"/>
 
@@ -398,13 +398,13 @@ This line is only separated by a single newline, so it's a separate line in the 
 They can't be added directly but you can add an image with a link to the video like this:
 
 ```no-highlight
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=8AkLfYOgIrE
-" target="_blank"><img src="http://img.youtube.com/vi/8AkLfYOgIrE/0.jpg"
+<a href="https://www.youtube.com/watch?feature=player_embedded&v=8AkLfYOgIrE
+" target="_blank"><img src="https://img.youtube.com/vi/8AkLfYOgIrE/0.jpg"
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 ```
 
 Or, in pure Markdown, but losing the image sizing and border:
 
 ```no-highlight
-[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
 ```
