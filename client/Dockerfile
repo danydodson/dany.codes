@@ -1,0 +1,17 @@
+FROM node:13
+
+RUN mkdir -p /home/node/app/node_modules && chown -R node:node /home/node/app
+
+WORKDIR /home/node/app
+
+USER node
+
+COPY yarn.lock .
+COPY package.json .
+
+RUN yarn global add gatsby-cli
+RUN yarn install
+
+COPY . .
+
+CMD ["yarn", "run", "dev"]

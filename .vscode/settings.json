@@ -1,0 +1,14 @@
+{
+  // 
+  "files.exclude": {},
+  // 
+  "search.exclude": {
+    "**/.git": true,
+    "**/public": true,
+    "**/.cache": true,
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/*.code-search": true,
+    "**/.DS_Store": true,
+  },
+}
