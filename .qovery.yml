@@ -1,0 +1,11 @@
+application:
+  name: dany.codes
+  project: dany.codes
+  publicly_accessible: true
+  organization: QoveryCommunity
+routers:
+- name: main
+  routes:
+  - application_name: dany.codes
+    paths:
+    - /
