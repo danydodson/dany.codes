@@ -11,3 +11,4 @@ services:
     volumes:
       - /home/node/app/node_modules
       - ./client/src:/home/node/app/src
+
