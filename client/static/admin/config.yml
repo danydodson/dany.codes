@@ -6,7 +6,7 @@ backend:
 media_library:
   name: cloudinary
   config:
-    cloud_name: dany
+    cloud_name: danydodson
     api_key: '282549924735476'
 
 media_folder: static/assets
