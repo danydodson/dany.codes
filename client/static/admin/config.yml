@@ -15,7 +15,7 @@ public_folder: assets
 collections:
   - name: blog
     label: "Post"
-    folder: "content"
+    folder: "client/content"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}.md"
     fields:
@@ -28,7 +28,7 @@ collections:
       - { label: "Body", name: "body", widget: "markdown" }
   - name: 'posts'
     label: 'Posts'
-    folder: 'content/posts'
+    folder: 'client/content/posts'
     create: true
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     fields:
@@ -51,7 +51,7 @@ collections:
 
   - name: 'pages'
     label: 'Pages'
-    folder: 'content/pages'
+    folder: 'client/content/pages'
     create: true
     slug: '{{slug}}'
     fields:
