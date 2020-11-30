@@ -1,6 +1,6 @@
 [build]
   base = "client"
-  publish = "client/static"
+  publish = "client/public"
   command = "gatsby build"
 [build.environment]
   NODE_VERSION = "12.19.0"
