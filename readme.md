@@ -19,7 +19,7 @@
 
 # Gatsby Advanced Starter
 
-<div align="center">
+<div>
     <a href="https://www.codacy.com/gh/danydodson/dany.codes/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=danydodson/dany.codes&amp;utm_campaign=Badge_Grade">
       <img src="https://app.codacy.com/project/badge/Grade/77f01bb270b14f1b9c41b1e848215b53"/>
     </a>
