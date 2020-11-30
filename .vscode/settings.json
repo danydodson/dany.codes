@@ -1,22 +1,12 @@
 {
   // 
   "files.exclude": {},
-  // 
-  "search.exclude": {
-    "**/.git": true,
-    "**/public": true,
-    "**/.cache": true,
-    "**/node_modules": true,
-    "**/bower_components": true,
-    "**/*.code-search": true,
-    "**/.DS_Store": true,
-  },
   "netlify.site_id": "68c92e42-d42d-44e1-bf0b-84a9bd582434",
   "netlify.api_token": "cjP4ST5QbqYNJlcfJKuCi7tkSU018dUloi9fRLJyfSg",
-  // "netlify.build_status_colors": {
-    // "building": "<hex|name>",
-    // "enqueued": "<hex|name>",
-    // "deploy-successful": "<hex|name>",
-    // "error": "<hex|name>"
-  // }
+  "netlify.build_status_colors": {
+    "building": "<hex|name>",
+    "enqueued": "<hex|name>",
+    "deploy-successful": "<hex|name>",
+    "error": "<hex|name>"
+  }
 }
