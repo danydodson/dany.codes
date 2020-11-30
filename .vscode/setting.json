@@ -2,7 +2,7 @@
   // 
   "files.exclude": {},
   "netlify.site_id": "68c92e42-d42d-44e1-bf0b-84a9bd582434",
-  "netlify.api_token": "cjP4ST5QbqYNJlcfJKuCi7tkSU018dUloi9fRLJyfSg",
+  "netlify.api_token": "cjP4ST5QbqYNJlcfJKuCi7tkSU018dUloi9fRLJyfSg"
   // "netlify.build_status_colors": {
   //   "building": "<hex|name>",
   //   "enqueued": "<hex|name>",
