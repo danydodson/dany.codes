@@ -1,15 +1,8 @@
 [build]
-<<<<<<< HEAD
+  base = "."
   publish = "public"
   command = "gatsby build"
 [build.environment]
   NODE_VERSION = "14.15.5"
-=======
-  base = "client"
-  publish = "public"
-  command = "gatsby build"
-[build.environment]
-  NODE_VERSION = "14.15.1"
->>>>>>> 95234380daff480a0baada7c1eadf2c019736d36
   YARN_VERSION = "1.22.5"
   YARN_FLAGS = "--no-ignore-optional"
