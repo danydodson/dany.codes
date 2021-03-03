@@ -1,12 +1,12 @@
-<!-- <div align="center" style="margin-bottom:30px">
+<div align="center" style="margin-bottom:30px">
     <a href='https://github.com/vagr9k/gatsby-advanced-starter/blob/master/LICENSE'>
     <img src="https://img.shields.io/github/license/vagr9k/gatsby-advanced-starter.svg" alt="Logo" />
     </a>
     <a href='https://github.com/vagr9k/gatsby-advanced-starter'>
-    <img src="https://img.shields.io/github/tag/vagr9k/gatsby-advanced-starter.svg" alt="Logo" />
+    <img src="https://img.shields.io/github/v/tag/Vagr9K/gatsby-advanced-starter" alt="Logo" />
     </a>
         <a href='https://github.com/vagr9k/gatsby-advanced-starter/stargazers'>
-    <img src="https://img.shields.io/github/stars/vagr9k/gatsby-advanced-starter.svg" alt="Logo" />
+    <img src="https://img.shields.io/github/stars/Vagr9K/gatsby-advanced-starter" alt="Logo" />
     </a>
         <a href="https://twitter.com/intent/tweet?text=A%20cool%20%40gatsbyjs%20starter%3A&url=https%3A%2F%2Fgithub.com%2FVagr9K%2Fgatsby-advanced-starter">
     <img src="https://img.shields.io/twitter/url/https/github.com/vagr9k/gatsby-advanced-starter.svg?style=social" alt="Logo" />
@@ -15,15 +15,10 @@
 
 <div align="center"  style="margin-bottom:30px">
     <img src="static/logos/logo-1024.png" alt="Logo" width='200px' height='200px'/>
-</div> -->
-
-# Gatsby Advanced Starter
+</div>
 
 <div align="center">
-    <a href="https://www.codacy.com/gh/danydodson/dany.codes/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=danydodson/dany.codes&amp;utm_campaign=Badge_Grade">
-      <img src="https://app.codacy.com/project/badge/Grade/77f01bb270b14f1b9c41b1e848215b53"/>
-    </a>
-    <!-- <a href="https://codeclimate.com/github/Vagr9K/gatsby-advanced-starter">
+    <a href="https://codeclimate.com/github/Vagr9K/gatsby-advanced-starter">
       <img src="https://codeclimate.com/github/Vagr9K/gatsby-advanced-starter/badges/gpa.svg" alt="Logo" />
     </a>
     <a href='https://codeclimate.com/github/Vagr9K/gatsby-advanced-starter'>
@@ -31,26 +26,13 @@
     </a>
     <a href='https://www.codacy.com/app/Vagr9K/gatsby-advanced-starter?utm_source=github.com&utm_medium=referral&utm_content=Vagr9K/gatsby-advanced-starter&utm_campaign=Badge_Grade'>
       <img src="https://api.codacy.com/project/badge/Grade/990fb54ea8094f2aa0ed77f14e859820" alt="Logo" />
-    </a> -->
+    </a>
     <a href='https://github.com/prettier/prettier'>
       <img src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square" alt="Logo" />
     </a>
 </div>
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/68c92e42-d42d-44e1-bf0b-84a9bd582434/deploy-status)](https://app.netlify.com/sites/danycodes/deploys)
-
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/77f01bb270b14f1b9c41b1e848215b53)](https://www.codacy.com/gh/danydodson/dany.codes/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=danydodson/dany.codes&amp;utm_campaign=Badge_Grade)  
-
-[![Maintainability](https://api.codeclimate.com/v1/badges/801557633df15a94ada8/maintainability)](https://codeclimate.com/github/danydodson/dany.codes/maintainability)  [![Test Coverage](https://api.codeclimate.com/v1/badges/801557633df15a94ada8/test_coverage)](https://codeclimate.com/github/danydodson/dany.codes/test_coverage)  
-
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/danydodson/dany.codes/badges/quality-score.png?b=main)](https://scrutinizer-ci.com/g/danydodson/dany.codes/?branch=main) [![Build Status](https://scrutinizer-ci.com/g/danydodson/dany.codes/badges/build.png?b=main)](https://scrutinizer-ci.com/g/danydodson/dany.codes/build-status/main)
-
-[![time tracker](https://wakatime.com/badge/github/danydodson/dany.codes.svg)](https://wakatime.com/badge/github/danydodson/dany.codes)
-
-[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)  
-
-<!-- [![Netlify Status](https://api.netlify.com/api/v1/badges/f6d221bb-82d6-4dc2-b28c-5366b5856400/deploy-status)](https://app.netlify.com/sites/xenodochial-johnson-42b1cc/deploys)   -->
-
+# Gatsby Advanced Starter
 
 A starter skeleton with advanced features for [Gatsby](https://github.com/gatsbyjs/gatsby/).
 
@@ -60,7 +42,7 @@ A starter skeleton with advanced features for [Gatsby](https://github.com/gatsby
 
 <div align="center">
     <a href="https://developers.google.com/web/tools/lighthouse/">
-      <img src="docs/pwa-score.png" alt="Lighthouse Score" />
+      <img src="assets/pwa-score.png" alt="Lighthouse Score" />
     </a>
 </div>
 
@@ -127,6 +109,7 @@ If you are interested in a foundation for building ultra-fast websites, you can 
 - Development tools
   - [ESLint](https://eslint.org/) for linting
   - [Prettier](https://prettier.io/) for code formatting
+  - [React Hooks Linting](https://www.npmjs.com/package/eslint-plugin-react-hooks)
   - Remark-Lint for linting Markdown
   - write-good for linting English prose
   - gh-pages for deploying to GitHub pages
@@ -137,24 +120,27 @@ NOTE: Feel free to check out [Gatsby Material Starter](https://github.com/Vagr9K
 
 ## Getting Started
 
-Install this starter (assuming [Gatsby](https://github.com/gatsbyjs/gatsby/) is installed and updated) by running from your CLI:
+Install this starter by running the following commands from your CLI:
 
 ```sh
 gatsby new YourProjectName https://github.com/Vagr9K/gatsby-advanced-starter
+cd YourProjectName
 npm run develop # or gatsby develop
 ```
 
-Or you can fork the project, make your changes there and merge new features when needed.
+Note that the [Gatsby CLI](https://www.npmjs.com/package/gatsby-cli) needs to be installed and updated for the `gatsby` command to work.
 
-Alternatively:
+Alternatively you can fork the project, make your changes and merge new upstream features when needed:
 
-```sh
-git clone https://github.com/Vagr9K/gatsby-advanced-starter YourProjectName # Clone the project
-cd YourProjectname
-rm -rf .git # So you can have your own changes stored in VCS.
-npm install # or yarn install
-npm run develop # or gatsby develop
-```
+- [Fork this repository on GitHub](https://github.com/Vagr9K/gatsby-advanced-starter/fork)
+- Run the following commands:
+
+  ```sh
+  git clone https://github.com/${YourUsername}/${YourForkName} YourForkName # Clone your fork
+  cd YourForkName
+  npm install # or yarn install
+  npm run develop # or yarn develop
+  ```
 
 ## Configuration
 
@@ -189,22 +175,22 @@ module.exports = {
     {
       label: "GitHub",
       url: "https://github.com/Vagr9K/gatsby-advanced-starter",
-      iconClassName: "fa fa-github"
+      iconClassName: "fa fa-github",
     },
     {
       label: "Twitter",
       url: "https://twitter.com/Vagr9K",
-      iconClassName: "fa fa-twitter"
+      iconClassName: "fa fa-twitter",
     },
     {
       label: "Email",
       url: "mailto:vagr9k@gmail.com",
-      iconClassName: "fa fa-envelope"
-    }
+      iconClassName: "fa fa-envelope",
+    },
   ],
   copyright: "Copyright © 2019. Advanced User", // Copyright string for the footer of the website and RSS feed.
   themeColor: "#c62828", // Used for setting manifest and progress theme colors.
-  backgroundColor: "#e0e0e0" // Used for setting manifest background color.
+  backgroundColor: "#e0e0e0", // Used for setting manifest background color.
 };
 ```
 
@@ -216,9 +202,9 @@ import CMS from "netlify-cms-app";
 CMS.init({
   config: {
     backend: {
-      name: "git-gateway"
-    }
-  }
+      name: "git-gateway",
+    },
+  },
 });
 ```
 
@@ -227,7 +213,7 @@ You can also optionally set `pathPrefix`:
 ```js
 module.exports = {
   // Note: it must *not* have a trailing slash.
-  pathPrefix: "/gatsby-advanced-starter" // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
+  pathPrefix: "/gatsby-advanced-starter", // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
 };
 ```
 

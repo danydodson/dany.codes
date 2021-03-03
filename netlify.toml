@@ -1,8 +1,7 @@
 [build]
-  base = "client"
-  publish = "client/public"
+  publish = "public"
   command = "gatsby build"
 [build.environment]
-  NODE_VERSION = "12.19.0"
+  NODE_VERSION = "14.15.5"
   YARN_VERSION = "1.22.5"
   YARN_FLAGS = "--no-ignore-optional"
