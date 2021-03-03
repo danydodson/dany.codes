@@ -49,8 +49,6 @@
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)  
 <!-- [![Netlify Status](https://api.netlify.com/api/v1/badges/f6d221bb-82d6-4dc2-b28c-5366b5856400/deploy-status)](https://app.netlify.com/sites/xenodochial-johnson-42b1cc/deploys)   -->
 
->>>>>>> 95234380daff480a0baada7c1eadf2c019736d36
-
 A starter skeleton with advanced features for [Gatsby](https://github.com/gatsbyjs/gatsby/).
 
 **NOTE**: This branch contains Gatsby v2 compatible version of the starter. To get the Gatsby v1 compatible version, use the [`v1`](https://github.com/Vagr9K/gatsby-advanced-starter/tree/v1) branch.
