@@ -32,6 +32,8 @@
     </a>
 </div>
 
+<!-- [![Netlify Status](https://api.netlify.com/api/v1/badges/1ea9aa2e-56ee-4be6-97fd-286fdb4de485/deploy-status)](https://app.netlify.com/sites/dany-codes/deploys) -->
+
 # Gatsby Advanced Starter
 
 A starter skeleton with advanced features for [Gatsby](https://github.com/gatsbyjs/gatsby/).
