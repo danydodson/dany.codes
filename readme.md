@@ -19,11 +19,6 @@
 
 <div align="center">
     <a href="https://codeclimate.com/github/Vagr9K/gatsby-advanced-starter">
-<div>
-    <!-- <a href="https://www.codacy.com/gh/danydodson/dany.codes/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=danydodson/dany.codes&amp;utm_campaign=Badge_Grade">
-      <img src="https://app.codacy.com/project/badge/Grade/77f01bb270b14f1b9c41b1e848215b53"/>
-    </a> -->
-    <!-- <a href="https://codeclimate.com/github/Vagr9K/gatsby-advanced-starter">
       <img src="https://codeclimate.com/github/Vagr9K/gatsby-advanced-starter/badges/gpa.svg" alt="Logo" />
     </a>
     <a href='https://codeclimate.com/github/Vagr9K/gatsby-advanced-starter'>
@@ -33,34 +28,23 @@
       <img src="https://api.codacy.com/project/badge/Grade/990fb54ea8094f2aa0ed77f14e859820" alt="Logo" />
     </a>
     <a href='https://github.com/prettier/prettier'>
-    </a> -->
-    <!-- <a href='https://github.com/prettier/prettier'>
       <img src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square" alt="Logo" />
-    </a> -->
+    </a>
 </div>
 
 # Gatsby Advanced Starter
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/68c92e42-d42d-44e1-bf0b-84a9bd582434/deploy-status)](https://app.netlify.com/sites/danycodes/deploys)
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/77f01bb270b14f1b9c41b1e848215b53)](https://www.codacy.com/gh/danydodson/dany.codes/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=danydodson/dany.codes&amp;utm_campaign=Badge_Grade)
-[![Maintainability](https://api.codeclimate.com/v1/badges/801557633df15a94ada8/maintainability)](https://codeclimate.com/github/danydodson/dany.codes/maintainability)  [![Test Coverage](https://api.codeclimate.com/v1/badges/801557633df15a94ada8/test_coverage)](https://codeclimate.com/github/danydodson/dany.codes/test_coverage)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/danydodson/dany.codes/badges/quality-score.png?b=main)](https://scrutinizer-ci.com/g/danydodson/dany.codes/?branch=main) [![Build Status](https://scrutinizer-ci.com/g/danydodson/dany.codes/badges/build.png?b=main)](https://scrutinizer-ci.com/g/danydodson/dany.codes/build-status/main)
-[![time tracker](https://wakatime.com/badge/github/danydodson/dany.codes.svg)](https://wakatime.com/badge/github/danydodson/dany.codes)
-[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)  
-<!-- [![Netlify Status](https://api.netlify.com/api/v1/badges/f6d221bb-82d6-4dc2-b28c-5366b5856400/deploy-status)](https://app.netlify.com/sites/xenodochial-johnson-42b1cc/deploys)   -->
 
 A starter skeleton with advanced features for [Gatsby](https://github.com/gatsbyjs/gatsby/).
 
 **NOTE**: This branch contains Gatsby v2 compatible version of the starter. To get the Gatsby v1 compatible version, use the [`v1`](https://github.com/Vagr9K/gatsby-advanced-starter/tree/v1) branch.
 
-## Lighthouse Audit Score
+<!-- ## Lighthouse Audit Score
 
 <div align="center">
     <a href="https://developers.google.com/web/tools/lighthouse/">
       <img src="assets/pwa-score.png" alt="Lighthouse Score" />
-      <img src="client/docs/pwa-score.png" alt="Lighthouse Score" />
     </a>
-</div>
+</div> -->
 
 Check out the [Features](#features) to read about all [Progressive Web App](https://developers.google.com/web/progressive-web-apps) capabilities of this starter in detail.
 

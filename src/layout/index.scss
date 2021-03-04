@@ -13,6 +13,17 @@ body {
   min-width: 100%;
 }
 
+ul,
+ol {
+  display: block;
+  list-style: none;
+}
+
+a,
+link {
+  text-decoration: none;
+}
+
 #___gatsby #gatsby-focus-wrapper {
   min-height: 100vh;
   min-width: 100vw;

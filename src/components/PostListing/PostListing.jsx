@@ -1,8 +1,13 @@
-import React from "react";
-import { Link } from "gatsby";
+import React from 'react'
+import PostTags from '../PostTags/PostTags'
+import PostTime from '../PostTime/PostTime'
+import { Link } from 'gatsby'
+
+import './PostListing.scss'
 
 function PostListing({ postEdges }) {
-  const postList = [];
+  const postList = []
+
   postEdges.forEach((postEdge) => {
     postList.push({
       path: postEdge.node.fields.slug,
@@ -11,22 +16,28 @@ function PostListing({ postEdges }) {
       title: postEdge.node.frontmatter.title,
       date: postEdge.node.fields.date,
       excerpt: postEdge.node.excerpt,
-      timeToRead: postEdge.node.timeToRead,
-    });
-  });
+      timeToRead: postEdge.node.timeToRead
+    })
+  })
 
-  return (
-    <div>
-      {
-        /* Your post list here. */
-        postList.map((post) => (
-          <Link to={post.path} key={post.title}>
-            <h1>{post.title}</h1>
-          </Link>
-        ))
-      }
-    </div>
-  );
+  return postList.map((post) => (
+    <li key={post.title}>
+      <article>
+        <PostTime timeIs={post.date} datetime={post.date}></PostTime>
+
+        <Link to={post.path}>
+          <h1 className="post-header">{post.title}</h1>
+        </Link>
+
+        <>
+          <PostTags tags={post.tags} />
+        </>
+
+        <div className="post-excerpt">{post.excerpt}</div>
+      </article>
+      <hr />
+    </li>
+  ))
 }
 
-export default PostListing;
+export default PostListing

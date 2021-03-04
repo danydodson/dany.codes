@@ -1,25 +1,30 @@
 {
   "name": "dany-codes",
   "description": "Portfolio & Blog of Dany Dodson",
-  "version": "2.20.11",
+  "version": "1.0.0",
   "main": "n/a",
   "scripts": {
-    "develop": "gatsby develop",
-    "dev": "npm run develop",
+    "dev": "gatsby develop",
+    "dev:debug": "NODE_OPTIONS='--inspect' gatsby develop",
+    "build": "yarn clean && gatsby build",
     "serve": "gatsby serve",
-    "build": "gatsby build",
     "build:pp": "gatsby build --prefix-paths",
-    "build:gh": "npm run clean && npm run build:pp && gh-pages -d public",
+    "build:gh": "yarn run clean && yarn run build:pp && gh-pages -d public",
     "clean": "rm -rf public && rm -rf .cache",
     "lint:js": "eslint --ext .js,.jsx .",
-    "lint:styles": "stylelint src/**/*.css",
+    "lint:fix": "yarn lint:js --fix",
+    "lint:styles": "stylelint src/**/*{.css,scss}",
+    "lint:styles:fix": "stylelint src/**/*{.css,scss} --fix",
     "lint:md": "remark content/",
-    "write-good": "write-good $(glob 'content/posts/**/*.md')",
+    "write-good": "write-good $(glob 'content/**/*.md')",
     "format:js": "prettier '**/*.{js,jsx}' --write",
-    "format:styles": "prettier '**/*.{css,scss}' --write"
+    "format:styles": "prettier '**/*.{css,scss}' --write",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
   },
   "dependencies": {
-    "gatsby": "^3.0.0",
+    "gatsby": "^3.0.1",
     "gatsby-image": "^3.0.0",
     "gatsby-plugin-catch-links": "^3.0.0",
     "gatsby-plugin-feed": "^3.0.0",
@@ -30,6 +35,7 @@
     "gatsby-plugin-nprogress": "^3.0.0",
     "gatsby-plugin-offline": "^4.0.0",
     "gatsby-plugin-react-helmet": "^4.0.0",
+    "gatsby-plugin-sass": "^4.0.0",
     "gatsby-plugin-sharp": "^3.0.0",
     "gatsby-plugin-sitemap": "^3.0.0",
     "gatsby-plugin-twitter": "^3.0.0",
@@ -50,12 +56,17 @@
     "react-disqus-comments": "^1.4.0",
     "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0",
+    "react-moment": "^1.1.1",
     "react-share": "^4.4.0",
     "react-twitter-widgets": "^1.9.5",
+    "sass": "^1.32.8",
     "url-join": "^4.0.1"
   },
   "devDependencies": {
     "cli-glob": "^0.1.0",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.6",
+    "enzyme-to-json": "^3.6.1",
     "eslint": "^7.21.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-config-prettier": "^8.1.0",
@@ -80,7 +91,7 @@
     ]
   },
   "license": "MIT",
-  "author": "Ruben Harutyunyan <vagr9k@gmail.com>",
+  "author": "Dany Dodson <danydodson@gmail.com>",
   "keywords": [
     "gatsby"
   ]

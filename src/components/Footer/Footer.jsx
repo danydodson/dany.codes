@@ -1,13 +1,13 @@
-import React from "react";
-import { Link } from "gatsby";
-import UserLinks from "../UserLinks/UserLinks";
-import "./Footer.css";
+import React from 'react'
+import { Link } from 'gatsby'
+import UserLinks from '../UserLinks/UserLinks'
+import './Footer.scss'
 
 function Footer({ config }) {
-  const url = config.siteRss;
-  const { copyright } = config;
+  const url = config.siteRss
+  const { copyright } = config
   if (!copyright) {
-    return null;
+    return null
   }
   return (
     <footer className="footer">
@@ -19,7 +19,7 @@ function Footer({ config }) {
           <button type="button">Subscribe</button>
         </Link>
         <h4>
-          Based on{" "}
+          Based on{' '}
           <a href="https://github.com/Vagr9K/gatsby-advanced-starter">
             Gatsby Advanced Starter
           </a>
@@ -27,7 +27,7 @@ function Footer({ config }) {
         </h4>
       </div>
     </footer>
-  );
+  )
 }
 
-export default Footer;
+export default Footer

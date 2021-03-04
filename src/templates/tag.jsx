@@ -1,24 +1,28 @@
-import React from "react";
-import { Helmet } from "react-helmet";
-import { graphql } from "gatsby";
-import Layout from "../layout";
-import PostListing from "../components/PostListing/PostListing";
-import config from "../../data/SiteConfig";
+import React from 'react'
+import { Helmet } from 'react-helmet'
+import { graphql } from 'gatsby'
+import Layout from '../layout'
+import PostListing from '../components/PostListing/PostListing'
+import HashIcon from '../components/Icon/Hash'
+import config from '../../data/SiteConfig'
 
 export default function TagTemplate({ pageContext, data }) {
-  const { tag } = pageContext;
-  const postEdges = data.allMarkdownRemark.edges;
+  const { tag } = pageContext
+  const postEdges = data.allMarkdownRemark.edges
   return (
     <Layout>
-      <div className="tag-container">
-        <Helmet title={`Posts tagged as "${tag}" | ${config.siteTitle}`} />
+      <h2>
+        {<HashIcon />}Topic: {tag}
+      </h2>
+      <ul className="tag-container">
+        <Helmet title={`Posts tagged as '${tag}' | ${config.siteTitle}`} />
         <PostListing postEdges={postEdges} />
-      </div>
+      </ul>
     </Layout>
-  );
+  )
 }
 
-/* eslint no-undef: "off" */
+/* eslint no-undef: 'off' */
 export const pageQuery = graphql`
   query TagPage($tag: String) {
     allMarkdownRemark(
@@ -45,4 +49,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`;
+`

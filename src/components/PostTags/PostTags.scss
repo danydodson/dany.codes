@@ -1,0 +1,24 @@
+ul.post-tags-list {
+  list-style: none;
+  display: inline-flex;
+  margin-left: -40px;
+  margin-bottom: 0.5em;
+}
+
+ul.post-tags-list > li:not(last-child) {
+  margin-right: 0.75em;
+}
+
+a.post-tags-link:hover {
+  li.post-tags-item {
+    border: 2px solid rgb(75, 167, 190);
+  }
+}
+
+li.post-tags-item {
+  text-decoration: none;
+  padding: 0.27em 0.75em;
+  border-radius: 0.25em;
+  border: 2px solid #ccc;
+  background: rgb(238, 238, 238);
+}
