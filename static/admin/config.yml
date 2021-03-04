@@ -1,22 +1,25 @@
 backend:
-  name: git-gateway # Refer to https://www.netlifycms.org/docs/authentication-backends/ for auth backend list and instructions
-  branch: main # Branch to update
-  repo: danydodson/dany.codes # Repo for pushing new commits. Make sure to replace with your repo!
+  # Refer to https://www.netlifycms.org/docs/authentication-backends/ for auth backend list and instructions
+  name: git-gateway
+  # Branch to update
+  branch: main
+  # Repo for pushing new commits. Make sure to replace with your repo!
+  repo: danydodson/dany.codes
 
 media_folder: static/assets
 public_folder: assets
 
 collections:
   - name: blog
-    label: "Post"
-    folder: "content"
+    label: 'Post'
+    folder: 'content'
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}.md"
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}.md'
     fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Cover Image", name: "cover", widget: "image" }
-      - { label: "Slug", name: "slug", widget: "string" }
-      - { label: "Category", name: "category", widget: "string" }
-      - { label: "Tags", name: "tags", widget: "list" }
-      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Cover Image', name: 'cover', widget: 'image' }
+      - { label: 'Slug', name: 'slug', widget: 'string' }
+      - { label: 'Category', name: 'category', widget: 'string' }
+      - { label: 'Tags', name: 'tags', widget: 'list' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }

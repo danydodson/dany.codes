@@ -27,5 +27,5 @@ jobs:
         with:
           path: '.'
           key: ${{ github.sha }}
-      - run: yarn test
-      - run: yarn lint
+      # - run: yarn test
+      - run: yarn lint:js
